@@ -10,7 +10,7 @@ clubrunner_site = os.getenv('clubrunner_site')
 
 def main():
     automation = Clubrunner(clubrunner_site)
-    automation.send_email_to_members()
+    automation.send_meeting_reminder()
 
 if __name__ == "__main__":
     main()
